@@ -1,0 +1,30 @@
+/* Table Values Color */
+.Good {
+    background-color: #00b050;
+}
+.Satisfactory {
+    background-color: #92d050;
+}
+.Moderate {
+    background-color: #ffff00;
+}
+.Poor {
+    background-color: #ff9900;
+}
+.Very-Poor {
+    background-color: #ff0000;
+}
+.Severe {
+    background-color: #c00000;
+}
+
+
+/* Table Styling */
+table,
+thead,
+tbody,
+td,
+tr {
+    border: solid;
+    font-family: "Poppins",sans-serif;
+}
