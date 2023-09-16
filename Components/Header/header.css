@@ -1,10 +1,11 @@
 /* Custom CSS */
 nav {
-    width: 100%;
-    background-color: black;
-    color: white;
-    height: 12vh;
-    position: relative;
-    display: flex;
-    font-family: "Poppins",sans-serif;
+  z-index: 99;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 12vh;
+  position: relative;
+  display: flex;
+  font-family: "Poppins", sans-serif;
 }
