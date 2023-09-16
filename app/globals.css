@@ -2,12 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Scroll Bar Hiding */
-::-webkit-scrollbar {
-    width: 0px; /* This will hide the horizontal and vertical scrollbar */
+
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: "Space Grotesk",sans-serif;
+  font-weight: 400;
+  color: #000;
 }
 
 
+/* Scroll Bar Hiding */
+::-webkit-scrollbar {
+  width: 0px; /* This will hide the horizontal and vertical scrollbar */
+}
 
 
 /* Custom classes */

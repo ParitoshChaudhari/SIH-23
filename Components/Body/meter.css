@@ -1,4 +1,4 @@
-/* Meter Styling for AQI METER AND WQI METER */
+
 
 body {
     height: 100vh;
@@ -44,6 +44,14 @@ h1 {
     bottom: 0;
     color: #fff;
     z-index: 10;
+}
+
+.label{
+    color: white;
+}
+
+.number{
+    color: white;
 }
 
 .gauge-center .label,
