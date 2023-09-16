@@ -19,7 +19,7 @@ const Faq = () => {
     <div className="bg-gray-100 py-8">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl font-semibold mb-4">
-          Frequently Asked Questions
+          Frequently Asked Questions 123
         </h2>
         {faqData.map((item, index) => (
           <div key={index} className="mb-4">
