@@ -30,7 +30,7 @@ const Footer = () => {
                                 <div className="footer-menu me-5">
                                     <ul>
                                         <li><a href="#">Home</a></li>
-                                        <li><a href="#">Terms</a></li>
+                                        <li><a href="#">FAQ's</a></li>
                                         <li><a href="#">Privacy</a></li>
                                         <li><a href="#">Policy</a></li>
                                         <li><a href="#">Contact</a></li>

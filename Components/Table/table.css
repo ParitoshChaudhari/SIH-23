@@ -20,11 +20,34 @@
 
 
 /* Table Styling */
-table,
-thead,
-tbody,
+
 td,
 tr {
     border: solid;
     font-family: "Poppins",sans-serif;
+}
+
+thead{
+    border: 3px solid black;
+}
+
+tr:hover{
+    background-color: rgb(215, 209, 209);
+}
+
+thead>tr:hover{
+    background-color: rgb(31,41,55);
+
+}
+
+
+
+/* Custom table */
+.cb-table{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.txt-start{
+    text-align: start;
 }

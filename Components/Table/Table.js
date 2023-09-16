@@ -4,9 +4,9 @@ import './table.css'
 const Table = () => {
   return (
     <>
-      <div className='bg-red-500'>
-        <div className="w-full h-3/4 overflow-hidden flex flex-row justify-center ">
-          <table className="w-5/6 h-full table-auto ">
+      <div className='cb-table'>
+        <div className="h-3/4 overflow-hidden flex flex-row justify-center ">
+          <table className="w-5/6  table-auto ">
             <thead className="bg-gray-800 text-white">
               <tr>
                 <th className="px-4 py-2">AQI</th>
@@ -15,12 +15,12 @@ const Table = () => {
                 <th className="px-4 py-2">Possible Health Impact</th>
               </tr>
             </thead>
-            <tbody className="bg-gray-100 border-solid">
+            <tbody className="bg-gray-100 cb-table">
               <tr>
                 <td>0-50</td>
                 <td>Good</td>
                 <td className='Good'></td>
-                <td>Minimal impact</td>
+                <td class="txt-start">Minimal impact</td>
               </tr>
               <tr>
                 <td>51-100</td>
