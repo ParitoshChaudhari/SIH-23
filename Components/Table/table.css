@@ -1,64 +1,71 @@
 /* Font  */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
-*{
-  font-family: "Space Grotesk",sans-serif;
+* {
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
 }
 
 /* Table Values Color */
 .Good {
-    background-color: #00b050;
+  font-weight: bolder;
+  background-color: #00b050;
 }
 .Satisfactory {
-    background-color: #92d050;
+  font-weight: bolder;
+  background-color: #92d050;
 }
 .Moderate {
-    background-color: #ffff00;
+  font-weight: bolder;
+  background-color: #ffff00;
 }
 .Poor {
-    background-color: #ff9900;
+  font-weight: bolder;
+  background-color: #ff9900;
 }
 .Very-Poor {
-    background-color: #ff0000;
+  font-weight: bolder;
+  background-color: #ff0000;
 }
 .Severe {
-    background-color: #c00000;
+  font-weight: bolder;
+  background-color: #c00000;
 }
-
 
 /* Table Styling */
 
 td,
 tr {
-    border: solid;
-    font-family: "Poppins",sans-serif;
+  border: solid black;
+  font-family: "Poppins", sans-serif;
 }
 
-thead{
-    border: 3px solid black;
+thead {
+  border: 3px solid black;
 }
 
-tr:hover{
-    background-color: rgb(215, 209, 209);
+tr:hover {
+  background-color: rgb(215, 209, 209);
 }
 
-thead>tr:hover{
-    background-color: rgb(31,41,55);
-
+thead > tr:hover {
+  background-color: rgb(31, 41, 55);
 }
-
-
 
 /* Custom table */
-.cb-table{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+.cb-table {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.txt-start{
-    text-align: start;
+.custom-width {
+  width: 81.333333%;
 }
-.txt-white{
-    color: white;
+
+.txt-start {
+  text-align: start;
+  padding-left: 20px;
+}
+.txt-white {
+  color: white;
 }
