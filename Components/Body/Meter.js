@@ -1,12 +1,10 @@
-import React from 'react'
-import './meter.css'
-
+import React from "react";
+import "./meter.css";
 
 const Meter = () => {
   return (
     <>
-
-      <h1>CSS Gauge - 4 levels</h1>
+      <h1>Gauge - 6 levels</h1>
 
       <div class="gauge-wrapper">
         <div class="gauge four rischio3">
@@ -19,13 +17,12 @@ const Meter = () => {
           <div class="needle"></div>
           <div class="gauge-center">
             <div class="label">RISK</div>
-            <div class="number">HIGH</div>
+            <div class="number">Low</div>
           </div>
         </div>
       </div>
-
     </>
-  )
-}
+  );
+};
 
-export default Meter
+export default Meter;
