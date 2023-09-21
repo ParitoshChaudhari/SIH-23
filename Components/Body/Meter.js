@@ -1,13 +1,13 @@
 import React from "react";
 import "./meter.css";
 
-const Meter = () => {
+const Meter = (props) => {
   return (
     <>
       <h1>Gauge - 6 levels</h1>
 
       <div class="gauge-wrapper">
-        <div class="gauge four rischio3">
+        <div class={"gauge four rischio" + props.lvl}>
           <div class="slice-colors">
             <div class="st slice-item"></div>
             <div class="st slice-item"></div>
